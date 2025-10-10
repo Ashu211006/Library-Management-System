@@ -195,7 +195,7 @@ def showReturned():
         print(k[0], "\t", k[1], "\t", k[2], "\t", k[3])
     print("-" * 50)
 
-# ---- MAIN PROGRAM ----
+
 connect()
 print("Connected to database")
 
