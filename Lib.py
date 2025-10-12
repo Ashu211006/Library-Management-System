@@ -215,5 +215,27 @@ if login():
         print("9. Show Issued Books")
         print("10. Show Returned Books")
         print("11. Quit")
-
-        break
+        
+        ch = int(input("Enter Your Choice : ")) 
+        if ch == 1: 
+            addMember() 
+        elif ch == 2: 
+            delMember() 
+        elif ch == 3: 
+            showMembers() 
+        elif ch == 4: 
+            addBook() 
+        elif ch == 5: 
+            delBook() 
+        elif ch == 6: 
+            showBooks() 
+        elif ch == 7: 
+            issueBook() 
+        elif ch == 8: 
+            returnBook() 
+        elif ch == 9: 
+            showIssued() 
+        elif ch == 10: 
+            showReturned() 
+        elif ch == 11: 
+            break
